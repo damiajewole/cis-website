@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@font-face {
+    font-family: 'zilla_slabmedium';
+    src: url('zillaslab-medium-webfont.woff2') format('woff2'),
+         url('zillaslab-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*, *::before, *::after{box-sizing: inherit}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: '';
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 14vh;
+    width: 100%;
+}
+
+.links a{
+    margin: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.links a:nth-child(3){
+    margin: 10px;
+}
+
+.hero-wrapper{
+    height: 42vh;
+    background-image: url('../IMGS/Group1.png');
+    border: 1px solid transparent;
+    color: #ffffff;
+}
+
+.hero-wrapper p{
+    color: #ffffff;
+    font-family: '';
+    text-align: center;
+    margin-top: 110px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pic-display{
+    width: 100%;
+    padding: 8.5rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 3rem;
+    grid-row-gap: 8rem;
+}
+
+.pic-display div{
+    text-align: left;
+    height: 35vh; 
+    /* background-color: lavender; */
+    /* background-image: url("../IMGS/sm-pics.jpg"); */
+}
+
+.title{
+    display: block;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+footer{
+    height: 18vh;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+
+.footlinks{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.footlinks a{
+    text-decoration: none;
+    color: white;
+    padding: 0 3rem;
+}
+
+.copyright{
+    margin-top: 2.3rem;
+}
+
+.img{
+    width: 5%;
+    height: 10vh;
+    background-image: url(../IMGS/cuLogo.jpg);
+    margin-top: 1.5rem;
+}
+
+
+
+
+

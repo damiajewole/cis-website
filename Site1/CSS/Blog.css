@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*, *::before, *::after{box-sizing: inherit}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: '';
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 14vh;
+    width: 100%;
+}
+
+.links a{
+    margin: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.links a:nth-child(3){
+    margin: 10px;
+}
+
+.hero-wrapper{
+    height: 43vh;
+    background-image: url('../IMGS/Group1.png');
+    border: 1px solid black;
+    color: #ffffff;
+}
+
+.hero-wrapper p{
+    color: #ffffff;
+    font-family: '';
+    text-align: center;
+    margin-top: 110px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.postOne{
+    display: flex;
+    /* padding: 7rem; */
+    margin: 7rem;
+    margin-bottom: 6rem;
+    padding-bottom: 7rem;
+    flex-direction: row;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.con-one{
+    /* border: 1px solid grey; */
+    padding-left: 3rem;
+    /* padding-bottom: 0rem; */
+    padding-right: 19rem;
+    padding-top: 0rem;
+}
+
+.con-one h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 0;
+    /* border: 1px solid black; */
+}
+
+.con-one p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    align-items: flex;
+    color: #747474;
+}
+
+
+.con-one p:first-of-type{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 0;
+    color: #C4c4c4;
+    margin: 0;
+}
+
+.pic-one{
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    height: 70vh;
+}
+
+.pic-one img{
+    height: 70vh;
+}
+
+
+.postTwo{
+    display: flex;
+    padding: 7rem;
+    padding-top: 0.5rem;
+    flex-direction: row;
+}
+
+.con-two{
+    padding-left: 3rem;
+    padding-right: 10rem;
+}
+
+.con-two h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.con-two p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #747474;
+}
+
+
+.con-two p:first-of-type{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 0;
+    color: #C4c4c4;
+    margin: 0;
+}
+
+.pic-two{
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    /* border: 1px solid black; */
+    height: 70vh;
+}
+
+.pic-two img{
+    height: 70vh;
+}
+
+footer{
+    height: 18vh;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+
+.footlinks{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.footlinks a{
+    text-decoration: none;
+    color: white;
+    padding: 0 3rem;
+}
+
+.copyright{
+    margin-top: 2.3rem;
+}
+
+.img{
+    width: 5%;
+    height: 10vh;
+    background-image: url(../IMGS/cuLogo.jpg);
+    margin-top: 1.5rem;
+}
+
+.green{
+    color: #01AD2E;
+}
